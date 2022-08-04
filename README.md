@@ -52,7 +52,7 @@ miután letöltötted, csomagold ki a css-mappádba, és hivatkozz a benne talá
 - Az ikonokat is a minta szerint helyezd el a linkek szövege elé, sorrendben:
 fa-tachometer, fa-windows, fa-bookmark, fa-area-chart, fa-table
 
-## Section
+## Section 
 - Legyen a tetején egy h1 elem "Dashboard" tartalommal.
 - Alatta legyen egy breadcrumb, ez egy div legyen "main__breadcrumb" osztállyal.
 - Háttérszíne 233,236,239 legyen.
