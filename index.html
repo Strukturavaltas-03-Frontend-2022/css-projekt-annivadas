@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,35 +8,98 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
     <header class="header--dark">
+
         <h3 class="header__title">Admin Page</h3>
         <div class="header__search">
-            <form action="action_page.php" method="get">
-                <input type="search" name="search" class="search__input">
-                <button class="search__btn">Search</button>
-            </form>
+            <input type="search" name="search" class="search__input" placeholder="Search for...">
+            <button class="search__btn">Search</button>
         </div>
     </header>
-    <main>
-        <aside>
-            <nav>
-            <ul class="nav__ul">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            </nav>
-        </aside>
-        <section>
+    <div class="container">
+        <main>
+
+
+            <aside>
+                <nav class="main__nav">
+                    <ul class="nav__ul">
+                        <li>
+                            <h4>Core</h4>
+                        </li>
+                        <li>
+                            <h4>Dashboard</h4>
+                        </li>
+                        <li>
+                            <h4>Interface</h4>
+                        </li>
+                        <li>
+                            <h4>Layouts</h4>
+                        </li>
+                        <li>
+                            <h4>Pages</h4>
+                        </li>
+                        <li>
+                            <h4>ADDONS</h4>
+                        </li>
+                        <li>
+                            <h4>Charts</h4>
+                        </li>
+                        <li>
+                            <h4>Tables</h4>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+        </main>
+        <section class="content">
             <h1>Dashboard</h1>
-            <div class="main__breadcump"></div>
+            <div class="main__breadcump">
+                <h3>Dashboard</h3>
+            </div>
+
+            <div class="main__cards">
+                <div class="main__card">
+                    <div class="card__top main__card--blue">Primary Card</div>
+                    <div class="card__bottom main__card--blue">Wiew details</div>
+                </div>
+                <div class="main__card">
+                    <div class="card__top main__card--yellow"></div>
+                    <div class="card__bottom main__card--yellow">Wiew details</div>
+                </div>
+                <div class="main__card">
+                    <div class="card__top main__card--green">Succes Card</div>
+                    <div class="card__bottom main__card--green">
+                        <p>Wiew details</p>
+                    </div>
+                </div>
+                <div class="main__card">
+                    <div class="card__top main__card--red">Succes Card</div>
+                    <div class="card__bottom main__card--red">
+                        <p>Wiew details</p>
+                    </div>
+                </div>
+            </div>
         </section>
-    </main>
+    </div>
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
