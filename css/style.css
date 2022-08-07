@@ -1,119 +1,119 @@
+* {
+    box-sizing: border;
+}
 
 .header--dark {
     background-color: rgb(51, 57, 61);
     color: rgb(236, 236, 236);
-    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
+
 }
+
 .header__title {
     display: inline;
     font-size: 1.25rem;
-    
 }
+
+/* .menu {
+
+} */
 .header__search {
     display: inline;
-    
-    background-color: yellow;
-    height: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    transition: border-color 0.15s;
+    margin: 0;
+    padding: 0;
 }
+
 .search__input {
-    
-    /* width: 250px; */
-    border-radius: 4px 0px 0px 4px; 
+    border-color: rgb(51, 57, 61);
+    border-right: none;
+    border-radius: 4px 0px 0px 4px;
+    border-width: 2px;
     padding: 0.375rem 0.75rem;
     font-size: 1.2rem;
 }
-    
+
+.search__input:focus {
+    border-color: rgb(128, 189, 255)
+}
+
 .search__btn {
+    /* display: inline; */
     height: 25px;
-    background-color: rgb(0,123,255);
+    color: white;
+    background-color: rgb(0, 123, 255);
+    border-color: rgb(51, 57, 61);
+    border-width: 2px;
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.search__btn:hover {
+    border-color:rgba (128, 189, 255, 0.6)
+}
 
-}    
+.search__btn:focus {
+    border-color: rgb(128, 189, 255);
+}
 .container {
-
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
- aside {
+aside {
     flex: 20%;
 }
-section{
+
+section {
     flex: 80%;
-} 
+}
+
 .main__nav {
-    background-color: rgb(33,37,41);
+    background-color: rgb(33, 37, 41);
 }
-    
-    
+
 .main__breadcump {
-background-color: rgb(233,236,239);
-border: 1px solid red;
-border-radius: 0.25rem;
-padding: 1rem 1.5rem;
+    background-color: rgb(233, 236, 239);
+    border: 1px solid red;
+    border-radius: 0.25rem;
+    padding: 1rem 1.5rem;
 }
-div.main__cards{
+
+div.main__cards {
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
 }
-.main__card{
+
+.main__card {
     color: white;
     flex: 25%;
     width: 20px;
-    
 }
 
-.card__top--blue {
-    background-color: rgb(255,193,7);
-    flex: 25%;
-}
-.card__borrom--blue {
-    background-color: rgb(255,193,7);
+div.main__card--blue {
+    background-color: rgb(0, 123, 255);
     flex: 25%;
 }
 
-    
+div.main__card--yellow {
+    background-color: rgb(255, 193, 7);
+    flex: 25%;
+}
+
 div.main__card--green {
-    background-color: rgb(40,167,69);
+    background-color: rgb(40, 167, 69);
     flex: 25%;
-    
-
 }
+
 div.main__card--red {
-    background-color: rgb(220,53,59);
+    background-color: rgb(220, 53, 59);
     flex: 25%;
-    
+
 }
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-
-    
-    
